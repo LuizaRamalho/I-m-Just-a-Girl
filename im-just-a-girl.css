@@ -116,6 +116,9 @@ main {
 
 .text-moda p {
     font-family: sans-serif;
+    font-size: 30px;
+    width: 110vh;
+    margin-right: 30px;
 }
 
 /* FINAL Tudo sobre Moda */
@@ -124,12 +127,12 @@ main {
 /* Tudo sobre Beleza */
 .beleza {
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .beleza img {
     border-radius: 20px;
-    width: 208vh;
+    width: 203vh;
     height: 33vh;
 }
 
@@ -140,6 +143,9 @@ main {
 
 .text-beleza p {
     font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
+
 }
 
 /* FINAL Tudo sobre Beleza */
@@ -148,7 +154,7 @@ main {
 /* Tudo sobre Other side */
 .other-side {
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .other-side h1 {
@@ -158,6 +164,8 @@ main {
 
 .other-side p {
     font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
 }
 
 /* FINAL Tudo Other side */
@@ -166,12 +174,12 @@ main {
 /* Tudo sobre Games */
 .games {
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .games img {
     border-radius: 20px;
-    width: 208vh;
+    width: 203vh;
     height: 40vh;
 }
 
@@ -182,6 +190,8 @@ main {
 
 .text-games p {
     font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
 }
 
 /* FINAL Tudo sobre Games */
@@ -190,23 +200,44 @@ main {
 /* Tudo sobre Entretenimento */
 .entretenimento {
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 90px;
     display: flex;
 }
 
-.img-ent {
+.ent-one img {
+    border-radius: 20px;
+    width: 40vh;
+    height: 30vh;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
-    width: 100px;
-    height: 100px;
-    margin-right: 30px;
+}
+
+.ent-two {
+    border-radius: 20px;
+    width: 30vh;
+    height: 30vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
 }
 
 .text-entretenimento h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .text-entretenimento p {
     font-family: sans-serif;
+    font-size: 30px;
+    width: 100vh;
+    margin-right: 90px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(230, 230, 230);
+    padding: 40px;
+
 }
 
 
