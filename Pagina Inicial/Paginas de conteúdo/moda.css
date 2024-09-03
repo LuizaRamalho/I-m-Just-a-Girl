@@ -98,162 +98,110 @@ main {
     color: black;
 }
 
-/* Tudo sobre Moda */
-.moda {
-    margin-top: 30px;
-    display: flex;
-}
-
-.moda img {
-    width: 200vh;
-    height: 65vh;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-}
-
-.text-moda h1 {
-    font-size: 70px;
-}
-
-.text-moda p {
-    font-family: sans-serif;
+.destaque {
     font-size: 30px;
-    width: 110vh;
-    margin-right: 30px;
-}
-
-/* FINAL Tudo sobre Moda */
-
-
-/* Tudo sobre Beleza */
-.beleza {
-    margin-left: 20px;
-    margin-top: 90px;
-}
-
-.beleza img {
-    border-radius: 20px;
-    width: 203vh;
-    height: 35vh;
-}
-
-.text-beleza h1 {
-    font-size: 70px;
-    margin-left: 40rem;
-}
-
-.text-beleza p {
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-right: 30px;
-
-}
-
-/* FINAL Tudo sobre Beleza */
-
-
-/* Tudo sobre Other side */
-.other-side {
-    margin-left: 20px;
-    margin-top: 100px;
-}
-
-.other-side h1 {
-    font-size: 70px;
-    margin-left: 22rem;
-}
-
-.other-side p {
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-right: 30px;
-}
-
-/* FINAL Tudo Other side */
-
-
-/* Tudo sobre Games */
-.games {
-    margin-left: 20px;
-    margin-top: 90px;
-}
-
-.games img {
-    border-radius: 20px;
-    width: 203vh;
-    height: 40vh;
-}
-
-.text-games h1 {
-    font-size: 70px;
-    margin-left: 40rem;
-}
-
-.text-games p {
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-right: 30px;
-}
-
-/* FINAL Tudo sobre Games */
-
-
-/* Tudo sobre Entretenimento */
-.entretenimento {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    margin-top: 90px;
     padding: 20px;
+    margin-left: 70px;
+    font-family: sans-serif;
 }
 
+.content-destaques {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+    height: 69vh;
+    padding: 30px;
+}
 
-.text-entretenimento{
-    flex: 1;
-    max-width: 40%; 
+.content-one {
+    margin-left: 80px;
     margin-right: 30px;
 }
 
-
-.text-entretenimento h1{
-    text-align: left; 
-    margin-bottom: 20px; 
-}
-
-.text-entretenimento p{
-    text-align: justify;
-}
-.ent-one {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(3, 1fr); 
-    
-    width: 40%; 
-
-}
-
-.ent-one img {
-    width: 90%; 
-    height: 95%; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-.text-entretenimento h1 {
-    font-size: 80px;
-}
-
-.text-entretenimento p {
+.content-one>p {
     font-family: sans-serif;
-    font-size: 30px;
-    width: 100vh;
-    margin-right: 90px;
 }
-/* FINAL Tudo sobre Entretenimento */
+
+.content-one>img {
+    border-radius: 20px;
+}
+
+.content-two {
+    margin-right: 50px;
+}
+
+.content-two>img {
+    border-radius: 20px;
+}
+
+.content-two>p {
+    font-family: sans-serif;
+}
+
+.content-recentes {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.recentes {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+
+.content-three>img {
+    border-radius: 20px;
+    width: 40vh;
+}
+
+.content-three > p {
+    font-family: sans-serif;
+}
+
+.content-four {
+    margin-left: 30px;
+}
+
+.content-four > img {
+    border-radius: 20px;
+    width: 40vh;
+}
+
+.content-four > p {
+    font-family: sans-serif;
+}
+
+.content-five {
+    margin-left: 30px;
+}
+
+.content-five > img {
+    border-radius: 20px;
+    width: 40vh;
+}
+
+.content-five > p {
+    font-family: sans-serif;
+}
+
+.content-six {
+    margin-left: 30px;
+}
+
+.content-six > img {
+    border-radius: 20px;
+    width: 40vh;
+}
+
+.content-six > p {
+    font-family: sans-serif;
+}
 
 footer {
-    margin-top: -300px;
+    margin-top: 90px;
     background-color: rgb(230, 230, 230);
     padding: 40px;
     height: 15rem;
@@ -274,3 +222,4 @@ footer h1 {
     height: 10vh;
     border-radius: 10px;
 }
+
